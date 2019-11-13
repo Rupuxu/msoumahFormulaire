@@ -1,0 +1,82 @@
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin : 0;
+    background-color: red;
+}
+
+#panoramique {
+    width: 200%;
+    height: 100vh;
+    margin: 0px;
+    background-color: black;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in; /* Transition de type ease */ 
+}
+
+#panoramique {
+    transform: translateX(-50%); /*On déplace l'objet*/
+}
+
+button:target {
+    
+}
+
+#central {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    float: left;
+
+}
+
+#formulaire1 {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#droite {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    /* display: flex;
+    align-items: center; */
+    float: left;
+}
+
+#formulaire2 {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    padding-top : 50px;
+    text-align: center;
+    margin-left : 500px;
+    margin-top: 200px;
+    display: block;
+    font-style: calibri;
+}
+
+#bouton {
+    background-color:black;
+    width: 90px;
+    height: 35px;
+    font-style: calibri;
+    font-size: 20px;
+    color : white;
+}
+
+a {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: blanchedalmond;
+    font-style: calibri;
+}
